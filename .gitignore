@@ -1,21 +1,25 @@
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-build/
-dist/
-.venv/
-venv/
-.pytest_cache/
-.ruff_cache/
 
 # Archive working outputs
-archive/
-tags.toml
-
 # OS / editor
-.DS_Store
-Thumbs.db
+# Python
+*.egg-info/
+*.py[cod]
+*.pyc
 *.swp
+.DS_Store
+.env
+.env.*
 .idea/
+.pytest_cache/
+.ruff_cache/
+.venv/
 .vscode/
+Thumbs.db
+__pycache__/
+archive/
+build/
+dist/
+dist/*.tmp
+node_modules/
+tags.toml
+venv/
