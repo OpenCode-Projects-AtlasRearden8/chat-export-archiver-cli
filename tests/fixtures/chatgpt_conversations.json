@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Planning a raised bed garden",
+    "create_time": 1710460800.5,
+    "mapping": {
+      "root0": {
+        "id": "root0",
+        "message": {
+          "author": {"role": "system"},
+          "content": {"content_type": "text", "parts": []},
+          "metadata": {}
+        },
+        "parent": null,
+        "children": ["m1"]
+      },
+      "m1": {
+        "id": "m1",
+        "message": {
+          "author": {"role": "user"},
+          "create_time": 1710460800.5,
+          "content": {"content_type": "text", "parts": ["What soil mix should I use for a raised bed?"]}
+        },
+        "parent": "root0",
+        "children": ["m2"]
+      },
+      "m2": {
+        "id": "m2",
+        "message": {
+          "author": {"role": "assistant"},
+          "create_time": 1710460805.0,
+          "content": {"content_type": "text", "parts": ["A simple mix: 40% topsoil, 30% compost, 30% aeration material like perlite.\n\nWater well and check drainage before planting."]},
+          "metadata": {"model_slug": "gpt-4o"}
+        },
+        "parent": "m1",
+        "children": []
+      }
+    }
+  },
+  {
+    "title": "Chess: cleaning up my openings",
+    "create_time": 1713451200.0,
+    "mapping": {
+      "root1": {
+        "id": "root1",
+        "message": null,
+        "parent": null,
+        "children": ["n1"]
+      },
+      "n1": {
+        "id": "n1",
+        "message": {
+          "author": {"role": "user"},
+          "create_time": 1713451200.0,
+          "content": {"content_type": "text", "parts": ["I keep losing in the Italian opening as white. What should I practice?"]}
+        },
+        "parent": "root1",
+        "children": ["n2"]
+      },
+      "n2": {
+        "id": "n2",
+        "message": {
+          "author": {"role": "assistant"},
+          "create_time": 1713451260.0,
+          "content": {"content_type": "text", "text": "Drill two ideas: the center fork pawn push plan, and castling before move six. Ten minutes of tactics daily helps the tactics part."},
+          "metadata": {"model_slug": "gpt-4o-mini"}
+        },
+        "parent": "n1",
+        "children": []
+      }
+    }
+  }
+]

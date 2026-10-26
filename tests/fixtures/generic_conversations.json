@@ -1,0 +1,19 @@
+{
+  "conversations": [
+    {
+      "title": "Budget check-in",
+      "model": "mistral",
+      "messages": [
+        {"role": "user", "content": "Can you sanity-check a simple monthly budget for me?"},
+        {"role": "assistant", "content": "Sure - the 50/30/20 split of needs, wants, and savings is an easy starting frame."}
+      ]
+    },
+    {
+      "title": "eBay listing brainstorm",
+      "messages": [
+        {"role": "user", "content": "Write a friendly eBay title for a used chess set."},
+        {"role": "assistant", "content": "\"Vintage Wooden Chess Set - Complete - Classic Staunton Style - Read Description\""}
+      ]
+    }
+  ]
+}

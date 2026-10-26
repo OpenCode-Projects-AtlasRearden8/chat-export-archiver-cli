@@ -1,0 +1,11 @@
+[
+  {
+    "role": "user",
+    "content": "Help me set up a simple bookkeeping spreadsheet for a tiny reselling side business.",
+    "time": "2024-05-22T09:30:00"
+  },
+  {
+    "role": "assistant",
+    "content": "Start with five columns: date, description, income, expense, category.\n\nAdd a monthly totals row and a running cash balance. That is enough for most start-up records."
+  }
+]

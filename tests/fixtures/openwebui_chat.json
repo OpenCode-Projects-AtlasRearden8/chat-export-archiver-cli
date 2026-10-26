@@ -1,0 +1,24 @@
+{
+  "title": "Ollama model ideas",
+  "create_time": 1714603200000,
+  "chat": {
+    "title": "Ollama model ideas",
+    "models": ["llama3"],
+    "mods": [],
+    "history": {
+      "messages": [
+        {
+          "role": "user",
+          "content": "Which 7B model should I try first for local summaries?",
+          "timestamp": 1714603200000
+        },
+        {
+          "role": "assistant",
+          "content": "Start with Llama 3 8B Instruct - solid quality on modest hardware, and Ollama makes it a one-liner.",
+          "model": "llama3",
+          "timestamp": 1714603260000
+        }
+      ]
+    }
+  }
+}
